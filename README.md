@@ -1,21 +1,21 @@
-# Mental Health Coach WhatsApp Chatbot
+# Supportive Bangladeshi Mother WhatsApp Chatbot
 
-A WhatsApp chatbot that serves as a mental health coach, built using Azure OpenAI and WhatsApp Web.js. This AI-powered chatbot provides mental health support, coping strategies based on Cognitive Behavioral Therapy (CBT), and mood tracking.
+A WhatsApp chatbot that emulates a supportive Bangladeshi mother, built using Azure OpenAI and WhatsApp Web.js. This AI-powered chatbot provides emotional support, cultural advice, and daily encouragement.
 
 ## Features
 
 ### Core Features
-- **Mental Health Support**: Provides compassionate, evidence-based mental health guidance and support
-- **CBT-Based Therapy**: Uses Cognitive Behavioral Therapy principles to help identify and reframe negative thought patterns
-- **Mood Tracking**: Tracks user mood over time and provides insights on patterns
-- **Daily Coping Exercises**: Suggests actionable exercises for managing stress, anxiety, and other challenges
-- **Positive Affirmations**: Delivers personalized positive affirmations to boost mental well-being
+- **Emotional Support**: Provides compassionate, culturally relevant emotional support and guidance
+- **Cultural Advice**: Offers advice and tips based on Bangladeshi culture and traditions
+- **Daily Encouragement**: Sends daily messages of encouragement and support
+- **Life Advice**: Provides practical advice for everyday challenges
+- **Positive Affirmations**: Delivers personalized positive affirmations to boost well-being
 
 ### Technical Features
 - **WhatsApp Integration**: Seamless communication through WhatsApp
 - **Azure OpenAI Integration**: Powered by Azure OpenAI for natural, empathetic conversations
 - **Conversation Memory**: Maintains conversation context for more helpful responses
-- **Command System**: Useful commands for accessing features like mood history
+- **Command System**: Useful commands for accessing features like daily advice
 - **Premium User Support**: Enhanced features for premium subscribers
 
 ## Prerequisites
@@ -30,8 +30,8 @@ A WhatsApp chatbot that serves as a mental health coach, built using Azure OpenA
 This chatbot includes built-in support for the following monetization strategies:
 
 1. **Freemium Model**:
-   - Basic version: Free access to mental health conversations and basic coping exercises
-   - Premium version: Extended conversation history, detailed mood tracking, and advanced features
+   - Basic version: Free access to emotional support and basic advice
+   - Premium version: Extended conversation history, detailed advice, and advanced features
 
 2. **Corporate Wellness Packages**:
    - API for managing multiple users
@@ -61,23 +61,22 @@ This chatbot includes built-in support for the following monetization strategies
 Users can interact with the chatbot using the following commands:
 
 - `/help` - Show all available commands
-- `/mood` - View mood history and trends
-- `/exercise` - Get a random coping exercise
+- `/advice` - Get a random piece of life advice
+- `/encouragement` - Receive a message of encouragement
 - `/affirmation` - Receive a positive affirmation
 - `/upgrade` - Learn about premium features
 - `/clear` - Clear conversation history
 
-Users can also track their mood by sending messages like "My mood is 7/10" or request specific help with phrases like "I need help with anxiety" or "Give me a coping exercise for stress."
+Users can also ask for specific advice by sending messages like "I need advice on studying" or request specific help with phrases like "Give me encouragement for a tough day."
 
-## CBT Approach
+## Cultural Approach
 
-The chatbot implements Cognitive Behavioral Therapy principles:
+The chatbot provides support based on Bangladeshi cultural principles:
 
-1. **Identifying Negative Thoughts**: Helps users recognize unhelpful thinking patterns
-2. **Challenging Distortions**: Guides users to question and reframe irrational thoughts
-3. **Behavioral Activation**: Encourages small positive actions to improve mood
-4. **Coping Strategies**: Provides evidence-based techniques for managing difficult emotions
-5. **Positive Reinforcement**: Acknowledges and encourages progress
+1. **Cultural Relevance**: Offers advice and support that aligns with Bangladeshi traditions and values
+2. **Practical Guidance**: Provides practical tips and advice for everyday challenges
+3. **Emotional Support**: Offers empathetic and compassionate support
+4. **Positive Reinforcement**: Acknowledges and encourages progress
 
 ## Production Deployment
 
@@ -92,4 +91,4 @@ For detailed deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md).
 
 ## License
 
-MIT 
+MIT
