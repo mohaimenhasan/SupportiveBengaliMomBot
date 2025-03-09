@@ -205,6 +205,12 @@ client.on('message', async (message) => {
     return;
   }
   
+  // Skip group chats - only respond to 1-1 conversations
+  if (message.isGroup) {
+    console.log(`[Group Message] Skipped message from group: ${message.from}`);
+    return;
+  }
+  
   // Only log detailed information for non-status messages
   console.log('-------------------------------------------');
   console.log(`New message received: ${message.body}`);

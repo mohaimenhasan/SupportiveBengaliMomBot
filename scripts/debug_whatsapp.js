@@ -75,6 +75,12 @@ client.on('message', (msg) => {
     return;
   }
   
+  // Skip group chats - only respond to 1-1 conversations
+  if (msg.isGroup) {
+    console.log(`[Group Message] Skipped message from group: ${msg.from}`);
+    return;
+  }
+  
   console.log('MESSAGE RECEIVED', msg.body);
   console.log('From:', msg.from, 'Author:', msg._data.author || 'N/A');
   
